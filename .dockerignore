@@ -1,0 +1,25 @@
+# 🐳 Ignore Supabase
+volumes/
+dev/
+reset.sh
+
+# 🚫 Do not copy local dependencies (reinstall in the image)
+node_modules/
+
+# 🛠️ Config/IDE files not needed in the image
+.vscode/
+.devcontainer/
+.tanstack/
+
+# 🔐 Sensitive or local files
+.env
+.env.*
+
+# 🗃️ Version control files
+.git
+.gitignore
+
+# 🧹 Log files, cache, temporary files
+*.log
+*.swp
+*.tmp

@@ -1,0 +1,33 @@
+# TanStack Templates
+
+node_modules
+.vscode
+.tanstack
+# Keep environment variables out of version control
+!.env
+package-lock.json
+yarn.lock
+
+.DS_Store
+.cache
+.env
+.vercel
+.output
+/build/
+/api/
+/server/build
+/public/build# Sentry Config File
+.env.sentry-build-plugin
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+
+# Supabase Template
+
+volumes/db/data
+volumes/storage
+.env
+test.http
+docker-compose.override.yml
