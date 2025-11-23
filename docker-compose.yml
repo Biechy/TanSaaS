@@ -26,6 +26,7 @@ services:
       STRIPE_SECRET_KEY: ${STRIPE_SECRET_KEY}
       STRIPE_WEBHOOK_SECRET: ${STRIPE_WEBHOOK_SECRET}
       STRIPE_BILLING_URL: ${STRIPE_BILLING_URL}
+      ALLOWED_HOSTS: ${ALLOWED_HOSTS}
     depends_on:
       db:
         condition: service_healthy
