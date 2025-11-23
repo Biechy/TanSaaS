@@ -31,13 +31,11 @@ It provides authentication, billing, routing, database, UI scaffolding, and dock
 
 ## 🚀 Getting Started
 
----
-
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/Biechy/tansaas-start
-cd tansaas-start
+git clone https://github.com/Biechy/TanSaaS
+cd TanSaaS
 ```
 
 ### 2️⃣ Configure Stripe
@@ -73,6 +71,8 @@ VAULT_ENC_KEY=
 If you don't know how to do it, look at the [Supabase self-hosting docs](https://supabase.com/docs/guides/self-hosting/docker).
 
 ### 4️⃣ Run container
+
+Please modify the `DOCKER_SOCKET_LOCATION` in ̀`.env.example` if your using Docker in mode root.
 
 Copy `.env.example → .env`, then run:
 
@@ -131,8 +131,6 @@ bash reset.sh
 - TypeScript strict mode
 - Preconfigured ESLint + Prettier
 - Clean and scalable project structure
-
----
 
 ## 🤝 Contributing
 
