@@ -4,7 +4,7 @@ A production-ready starter to build SaaS apps **fast** using the **TanStack ecos
 
 ## 🌐 Demo
 
-Demo available soon !
+Live demo available here: [TanSaaS Template](https://tansaas.biechy.xyz/).
 
 ## 📌 Overview
 
