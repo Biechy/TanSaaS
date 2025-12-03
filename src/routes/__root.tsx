@@ -14,7 +14,7 @@ import { NotFound } from "../components/NotFound";
 import appCss from "@/styles/app.css?url";
 import { seo } from "@/utils/seo";
 import { RealtimePresence } from "@supabase/supabase-js";
-import logo from "@/assets/logo.png";
+import icon from "@/assets/icon.png";
 import { useState } from "react";
 import {
   fetchUser,
@@ -120,7 +120,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
               {/* Desktop Header */}
               <div className="flex gap-10 text-lg items-center">
                 <Link to="/app" activeOptions={{ exact: true }}>
-                  <img src={logo} alt="MyAPP Logo" className="h-8 w-auto" />
+                  <img src={icon} alt="MyAPP icon" className="h-10 w-auto" />
                 </Link>
 
                 {/* Navigation Desktop */}

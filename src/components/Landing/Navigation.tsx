@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "@/assets/logo.png";
+import icon from "@/assets/icon.png";
 import { Link } from "@tanstack/react-router";
 
 export function Navigation({
@@ -19,9 +19,9 @@ export function Navigation({
     <nav className="fixed top-0 w-full z-50 backdrop-blur-lg border-b">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo */}
+          {/* icon */}
           <div className="flex items-center space-x-3">
-            <img src={logo} alt="Logo" className="h-10 w-auto" />
+            <img src={icon} alt="Icon" className="h-10 w-auto" />
           </div>
 
           {/* Menu desktop */}

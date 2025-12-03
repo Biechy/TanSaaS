@@ -41,4 +41,12 @@ else
   echo ".env.example file not found. Skipping .env reset step..."
 fi
 
+echo "Removing package-lock.json file..."
+if [ -f "package-lock.json" ]; then
+  echo "Removing existing package-lock.json file..."
+  rm -f package-lock.json
+else
+  echo "No package-lock.json file found. Skipping package-lock.json removal step..."
+fi
+
 echo "Cleanup complete!"
